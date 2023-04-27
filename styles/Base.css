@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap");
+body {
+  font-family: "Kanit", sans-serif;
+  font-size: 26px;
+  color: white;
+  background: url(https://cojo.ru/wp-content/uploads/2022/12/chernyi-kosmos-1-1.webp);
+  background-repeat: repeat;
+  animation: slideBackground 20s linear infinite;
+}
+h3 {
+  font-size: 20px;
+}
+.Info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+.bb:hover {
+  color: red;
+  transition: 500ms;
+}
+img {
+  box-shadow: 0 0 100px black;
+}
+h2 {
+  font-size: 26px;
+}
+
+.Planets:hover {
+  color: blue;
+  transition: 500ms;
+}
+.Cosmos:hover {
+  color: darkviolet;
+  transition: 500ms;
+}
+.GiantPlanets:hover {
+  color: dodgerblue;
+  transition: 500ms;
+}
+.Meteors:hover {
+  color: crimson;
+  transition: 500ms;
+}
+.Blackholes:hover {
+  color: orangered;
+  transition: 500ms;
+}
+.Stars:hover {
+  color: yellow;
+  transition: 500ms;
+}
+.Galactics:hover {
+  color: aquamarine;
+  transition: 500ms;
+}
+.Satellite:hover {
+  color: grey;
+  transition: 500ms;
+}
+#Back:hover {
+  color: orange;
+  transition: 500ms;
+}
+.Bottom_line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Bottom_line img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 2px solid white;
+}
+.Top-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Border_info {
+  border-radius: 150px;
+  border: 9px solid white;
+  background-color: black;
+}
+.Information p {
+  margin-bottom: 200px;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+img {
+  width: 1000px;
+  height: 580px;
+  border-radius: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+@keyframes slideBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 200px 170px;
+  }
+}
+.Center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Information {
+  width: 1144px;
+  margin-left: 375px;
+}
+.Red:hover {
+  color: red;
+  transition: 500ms;
+}
